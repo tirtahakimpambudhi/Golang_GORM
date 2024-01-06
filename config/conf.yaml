@@ -1,0 +1,14 @@
+App : "Todo List"
+Server :
+  Protocol : "http"
+  Host     : "localhost"
+  Port     : "3200"
+  Endpoint : "/api/todo/"
+Database :
+  Dialect     : "postgres"
+  Host        : "127.0.0.1"
+  Port        : "5432"
+  User        : "postgres"
+  Password    : "postgres"
+  Name        : "golang_project"
+  Table       : "todolist"
